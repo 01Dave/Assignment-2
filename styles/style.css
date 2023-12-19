@@ -1,0 +1,593 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.sign-up {
+  box-sizing: border-box;
+  padding: 8.1rem 14rem 8rem 14rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(46, 196, 182, 0.0399999991);
+}
+.sign-up .group1 {
+  margin: 0rem 8.4rem 16.85rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.sign-up .group1 .logo {
+  margin-bottom: 5rem;
+  width: 7.7346rem;
+  height: 8rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.sign-up .group1 .for-individuals {
+  margin-bottom: 3.25rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.08rem;
+  color: #000a09;
+  font-family: Brown, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .group1 .start-benefiting {
+  max-width: 46rem;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5625;
+  color: #737373;
+  font-family: Brown, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 {
+  width: 61.6rem;
+  height: 67.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .bg1 {
+  width: 58rem;
+  height: 67.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 0;
+  box-shadow: 0 0.4rem 5rem rgba(3, 8, 19, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+.sign-up .auto-group1 .form-filled1 {
+  width: 50rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 7.6rem;
+  top: 44.6rem;
+  row-gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .auto-group1 .form-filled1 .title1 {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled1 .bg2 {
+  box-sizing: border-box;
+  padding: 1.933rem 1.733rem 1.933rem 46.933rem;
+  width: 100%;
+  border: solid 0.1rem #f0f0f0;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled1 .bg2 .edit-show {
+  width: 1.3333rem;
+  height: 0.9333rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.sign-up .auto-group1 .form-filled1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #a6a6a6;
+  font-family: Upgrade, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled2 {
+  width: 31.4rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 26.2rem;
+  top: 3.8rem;
+  row-gap: 0.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .auto-group1 .form-filled2 .title2 {
+  margin-right: 9.7rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled2 .bg3 {
+  box-sizing: border-box;
+  padding-left: 7.6rem;
+  width: 100%;
+  height: 4.8rem;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled2 .bg3 .auto-group2 {
+  width: 100%;
+  height: 100%;
+  border: solid 0.1rem #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .form-filled2 {
+  margin-left: 5.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #a6a6a6;
+  font-family: Upgrade, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled3 {
+  width: 31.4rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 0;
+  top: 14rem;
+  row-gap: 0.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .auto-group1 .form-filled3 .title3 {
+  margin-right: 11.7rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled3 .bg4 {
+  box-sizing: border-box;
+  padding-left: 7.6rem;
+  width: 100%;
+  height: 4.8rem;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled3 .bg4 .auto-group3 {
+  box-sizing: border-box;
+  padding: 1.4rem 1.47rem 1.4rem 1.6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #f0f0f0;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .form-filled3 .bg4 .auto-group3 .placeholder1 {
+  margin-right: 13.1754rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4285714286;
+  letter-spacing: 0.02rem;
+  color: #737373;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled3 .bg4 .auto-group3 {
+  margin-top: 0.0005rem;
+  width: 1.0542rem;
+  height: 0.6247rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled3 {
+  margin-left: 5.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #a6a6a6;
+  font-family: Upgrade, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled4 {
+  width: 31.4rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 0;
+  top: 24.2rem;
+  row-gap: 0.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .auto-group1 .form-filled4 .title4 {
+  margin-right: 9rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled4 .bg5 {
+  box-sizing: border-box;
+  padding-left: 7.6rem;
+  width: 100%;
+  height: 4.8rem;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled4 .bg5 .auto-group4 {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4285714286;
+  letter-spacing: 0.02rem;
+  color: #737373;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #f0f0f0;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .form-filled4 {
+  margin-left: 5.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #a6a6a6;
+  font-family: Upgrade, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled5 {
+  width: 57.6rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 0;
+  top: 34.4rem;
+  row-gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .auto-group1 .form-filled5 .title5 {
+  margin-left: 7.6rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled5 .bg6 {
+  box-sizing: border-box;
+  padding-left: 7.6rem;
+  width: 100%;
+  height: 4.8rem;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled5 .bg6 .auto-group5 {
+  box-sizing: border-box;
+  padding: 1.4rem 1.47rem 1.4rem 1.6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #f0f0f0;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .form-filled5 .bg6 .auto-group5 .placeholder2 {
+  margin-right: 39.3754rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4285714286;
+  letter-spacing: 0.02rem;
+  color: #737373;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled5 .bg6 .auto-group5 {
+  margin-top: 0.0005rem;
+  width: 1.0542rem;
+  height: 0.6247rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled5 {
+  margin-left: 7.6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #a6a6a6;
+  font-family: Upgrade, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled6 {
+  width: 31.4rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 26.2rem;
+  top: 14rem;
+  row-gap: 0.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .auto-group1 .form-filled6 .title6 {
+  margin-right: 8.5rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled6 .bg7 {
+  box-sizing: border-box;
+  padding-left: 7.6rem;
+  width: 100%;
+  height: 4.8rem;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled6 .bg7 .auto-group6 {
+  box-sizing: border-box;
+  padding: 1.3rem 1rem 1.3rem 1.6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #f0f0f0;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .form-filled6 .bg7 .auto-group6 .placeholder3 {
+  margin-right: 12.7rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4285714286;
+  letter-spacing: 0.02rem;
+  color: #737373;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled6 .bg7 .auto-group6 .calendar {
+  width: 2rem;
+  height: 2.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled6 {
+  margin-left: 5.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #a6a6a6;
+  font-family: Upgrade, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled7 {
+  width: 31.4rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 26.2rem;
+  top: 24.2rem;
+  row-gap: 0.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .auto-group1 .form-filled7 .title7 {
+  margin-right: 9rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled7 .bg8 {
+  box-sizing: border-box;
+  padding-left: 7.6rem;
+  width: 100%;
+  height: 4.8rem;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled7 .bg8 .auto-group7 {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4285714286;
+  letter-spacing: 0.02rem;
+  color: #737373;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #f0f0f0;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .form-filled7 {
+  margin-left: 5.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #a6a6a6;
+  font-family: Upgrade, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sign-up .auto-group1 .form-filled8 {
+  box-sizing: border-box;
+  padding-bottom: 2.4rem;
+  width: 23.8rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 7.6rem;
+  top: 3.8rem;
+}
+.sign-up .auto-group1 .form-filled8 .title8 {
+  margin-bottom: 0.8rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.01rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.sign-up .auto-group1 .form-filled8 .auto-group8 {
+  width: 100%;
+  height: 4.8rem;
+  position: relative;
+}
+.sign-up .auto-group1 .form-filled8 .auto-group8 .bg9 {
+  width: 23.8rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.3rem rgba(46, 196, 182, 0.0599999987);
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .form-filled8 .auto-group8 .placeholder4 {
+  width: 2.7rem;
+  height: 2rem;
+  position: absolute;
+  left: 1.6rem;
+  top: 1.4rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  letter-spacing: 0.02rem;
+  color: #011c34;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.sign-up .auto-group1 .bg10 {
+  width: 50rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 7.6rem;
+  top: 55rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2575;
+  letter-spacing: 0.02rem;
+  color: #ffffff;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #2ec4b6;
+  border-radius: 0.2rem;
+}
+.sign-up .auto-group1 .by-clicking {
+  width: 42.2rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 9.4rem;
+  top: 61.4rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7857142857;
+  color: #000000;
+  font-family: Sofia Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: baseline;
+}
+
+.sign-up .auto-group1 .by-clicking .by-clicking-sub2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7857142857;
+  text-decoration-line: underline;
+  color: #2ec4b6;
+  font-family: Sofia Pro, 'Source Sans Pro';
+}
+
+.sign-up .auto-group1 .by-clicking .by-clicking-sub4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7857142857;
+  text-decoration-line: underline;
+  color: #2ec4b6;
+  font-family: Sofia Pro, 'Source Sans Pro';
+}
